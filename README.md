@@ -28,6 +28,11 @@ Example Usage: `./setup.sh gpu`
 
 
 
-# Feedback
+# RF Signals Classification
 
-Comments, questions, and suggestions are always welcome.  Please open an issue for any of them.
+
+Data: https://www.kaggle.com/datasets/halcy0nic/radio-frequecy-rf-signal-image-classification
+
+This notebook uses the Keras 2 API.
+
+Validation accuracy of over 90% is achieved with a simple ResNet.  This pattern can be applied to any number of waterfall plots.
