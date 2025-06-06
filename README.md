@@ -13,6 +13,19 @@ Collaboration is installed by default (via `jupyter_collaboration`)!  So if you 
 
 # How to use it
 
+## Setup the tracking server
+
+They're hardcoded to work together...
+
+```
+git clone git@github.com:Andreas237/PersonalMlFlow.git && \
+pushd PersonalMlFlow && \
+chmod +x ./start.sh
+./start.sh
+```
+
+## Run the experiment
+
 Use `chmod +x setup.sh` to make the builds the Dockerfile in `setup/` and opens a Jupyter notebook which mounts the `notebooks/` directory for reading and writing and `notebooks/datasets/` for your data.  `notebooks/` will show up as your working directory.
 
 `setup.sh` specifies port, app name, other fields used in `docker run`.  If you use this repo for multiple projects you will need to change the port and app name used for the running container.
